@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+    background-color: #ffffff;
+    color: #000000;
+}
+header {
+    background-image: url('imges/Image.png');
+    background-color: #696969;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.argon-image{
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin: 20px auto;
+}
+.top-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.header-btn1, .header-btn2 {
+    padding: 10px 40px;
+    background-color: #ffffff; /* Light blue */
+    color: #5E72E4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-section {
+    padding: 100px 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: white;
+
+    /* Here is how to use your exported image as the background */
+    background-image: url('imges/Image.png');
+    background-size: cover;          /* This scales the image to cover the entire container */
+    background-position: center;     /* This centers the image within the container */
+    background-repeat: no-repeat;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-section .cta-button {
+    padding: 12px 24px;
+    background-color: #FB6340;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.features-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.features-container {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature-card {
+    background-color: #ffffff;
+    border-radius: 0px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.feature-card p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+    
+}
+.feature-card a { 
+    color: #64c8fb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.features-image {
+  max-width: 490px;
+  height: auto; /* This maintains the aspect ratio */
+  border-radius: 10px;
+}
+.analytics-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+    
+}
+.top-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.top-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.top-section p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+.top-section button {
+    padding: 12px 24px;
+    margin-bottom: 20px;
+    background-color: #5E72E4;
+    color: #ffffff;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.main-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; 
+    margin-top: 40px;
+}
+.pricing-card {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+.pricing-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #5E72E4;
+}
+
+.pricing-card p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.pricing-card a {
+    color: #0010bb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.footer-section {
+    background-color: #F4F5F7;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.text-content1,
+.text-content2 {
+    margin-bottom: 10px;
+    text-align: left;
+}
+.text-content1 p{
+    color:#5E72E4;
+}
+
+.social-icons{
+    text-align: right;
+}
+
+.footer-separator {
+    border: none;
+    height: 1px;
+    background-color: #858585;
+    margin: 20px 0;
+}
+.trademark-content {
+    color: #000000;
+    text-align: left;
+}
+
+.Policies-Links {
+    text-align: right;
+}
